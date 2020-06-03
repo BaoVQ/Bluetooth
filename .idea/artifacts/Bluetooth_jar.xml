@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bluetooth:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bluetooth_jar</output-path>
+    <root id="archive" name="Bluetooth.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Bluetooth" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/commons-lang3-3.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/bluez-dbus-0.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/dbus-java-3.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/java-utils-1.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jarLibrary/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Lib/groovy-2.5.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

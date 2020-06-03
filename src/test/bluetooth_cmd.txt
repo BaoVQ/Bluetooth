@@ -1,0 +1,16 @@
+- Start bluetooth profile:
+bluetoothd -c -P a2dp,avrcp,hfp,opp
+
+killall bluetoothd
+
+- check bluetooth status:
+hciconfig hci0
+
+- Enable bluetooth adapter:
+hciconfig hci0 up
+
+- Enable bluetooth adapter:
+hciconfig hci0 down
+
+- bluetoothctl:
+https://www.linux-magazine.com/Issues/2017/197/Command-Line-bluetoothctl

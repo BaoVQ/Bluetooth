@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="jarLibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/bluez-dbus-0.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/dbus-java-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/java-utils-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/logback-classic-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/logback-core-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jarLibrary/slf4j-api-1.7.25.jar!/" />
+      <root url="file://$PROJECT_DIR$/../jarLibrary" />
+      <root url="jar://$USER_HOME$/Downloads/dbus-java-3.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/groovy-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Lib/groovy-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Lib/dbus-java-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../jarLibrary" recursive="false" />
+  </library>
+</component>

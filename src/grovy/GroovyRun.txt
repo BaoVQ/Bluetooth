@@ -1,0 +1,24 @@
+
+import grovy.DemoObject;
+import grovy.Enforcement;
+import uiautomater.UIAutomater;
+import uiautomater.ProcessBuilder;
+import java.io.IOException;
+import uiautomater.UIAutomater;
+
+
+public class GroovyRun implements grovy.DemoObject {
+    public void printHello() {
+        Enforcement.printString("Hello 123");
+    }
+
+    public int add(int a, int b) {
+        return Enforcement.add(1,1);
+    }
+
+    public void turnOnBluetooth() throws IOException, InterruptedException {
+            //System.out.println("start");
+            Enforcement.turnOnBluetooth();
+        }
+
+}
